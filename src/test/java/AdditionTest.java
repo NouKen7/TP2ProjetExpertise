@@ -18,4 +18,10 @@ public class AdditionTest{
         System.out.println("Test addNotEquals");
         assertNotEquals(Addition.add(1, 1), 3);
     }
+
+    @Test
+    public void add2() {
+        System.out.println("Test addNotEquals");
+        assertNotEquals(Addition.add(3, 1), 4);
+    }
 }
